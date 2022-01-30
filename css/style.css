@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* GlOBAL */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINER */
+.container{
+    max-width: 1250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+/* MAIN CONTENT */
+.main-content{
+    flex-grow: 1;
+}
+
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.header-top-action {
+    display: flex;
+    align-items: center;
+}
+
+.site-navbar {
+    margin-right: 40px;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.item-navbar-link {
+    font-size: 15px;
+    line-height: 22.5px;
+    color:#333333;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.item-navbar-link:hover{
+    color: #EA625C;
+}
+
+.navbar-link {
+    font-size: 15px;
+    text-decoration: none;
+    color:#666666;
+    transition: 0.3s;
+}
+
+.navbar-link:hover{
+    color: #EA625C;
+}
+
+.navbar-link::after{
+    content: '';
+    display:block;
+    background-color:#000;
+    opacity: 0.5;
+    width: 153px;
+    height: 2px;
+}
+
+.about-border {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 68px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero-action {
+    margin-top: 91px;
+    width: 490px;
+}
+
+.hero-action-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.hero-action-text {
+    display: flex;
+    margin: 0;
+    margin-bottom: 42px;
+    color:#777777;
+    max-width: 490px;
+    width: 100%;
+    height: 120px;
+}
+
+.hero-action-text::before{
+    content: '';
+    display: inline-block;
+    height: 120px;
+    width: 10px;
+    background-color: #888888   ;
+    margin-right: 40px;
+
+}
+
+.main-button {
+    background-color: #C9514C;
+    padding:12px 38.5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 0;
+    border: 1px solid #C9514C;
+    transition: 0.3s;
+}
+
+.main-button:hover{
+    background-color: #fff;
+    color:#C9514C;
+}
+
+.hero-img {
+    display: flex;
+    margin-right: -370px;
+}
+
+.features {
+    margin-bottom: 168px;
+}
+
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.features-item {
+    width: 280px;
+}
+
+.features-item:not(:last-child){
+    margin-right: 80px;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #222;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.features-text {
+    font-size: 15px;
+    color: #333333;
+}
+
+
+.features-item-button {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #EA625C;
+    margin-top: 20px;
+}
+
+.features-item-button::before{
+    content: '';
+    display: inline-block;
+    background-color: #EA625C;
+    width: 40px;
+    height: 3px;
+    margin-right: 10px;
+}
+
+.sale {
+}
+
+.sale-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sale-action {
+    max-width:490px;
+}
+
+.sale-action-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.sale-action-text {
+    display: flex;
+    color: #777;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.sale-action-text::before{
+    content: '';
+    display: inline-block;
+    background-color: #888;
+    height: 96px;
+    width: 10px;
+    margin-right: 40px;
+}
+
+.sale-button{
+    padding: 12px 90px;
+}
+
+.sale-img-container {
+}
+
+.sale-img {
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    background: url('../images/runners.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 830.19px;
+    width:1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.control-action {
+    width:490px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.control-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.control-text {
+    max-width: 450px;
+    display: flex;
+    font-weight: 400;
+    margin: 0;
+    color: #fff;
+    margin-bottom: 30px;
+    line-height: 24px
+}
+
+.control-text::before{
+    content: '';
+    display: inline-block;
+    height: 120px;
+    width: 10px;
+    background-color: #fff;
+    margin-right: 40px;
+}
