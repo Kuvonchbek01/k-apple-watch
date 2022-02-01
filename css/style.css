@@ -389,6 +389,10 @@ body{
         padding-bottom: 30rem;
      }
 
+     .hero-action-text{
+        margin-bottom: 6rem;
+     }
+
      .site-logo{
          text-align: center;
      }
@@ -401,6 +405,8 @@ body{
     .navbar-list{
         margin-bottom: 2rem;
         text-align: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .input{
