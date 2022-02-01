@@ -356,10 +356,18 @@ body{
 
 @media (max-width: 750px) {
 
+    .header-top{
+        margin-bottom: 5rem;
+    }
+
     .hero-action{
         padding-top: 5rem;
         padding-bottom: 38rem;
      }
+
+     .features{
+        margin-bottom: 13rem;
+    }
 
     .features-list{
         display: block;
@@ -377,7 +385,7 @@ body{
 
 @media (max-width: 540px) {
     .hero-action{
-        padding-top: 3rem;
+        padding-top: 1rem;
         padding-bottom: 30rem;
      }
 
@@ -399,6 +407,10 @@ body{
         text-align: center;
     }
 
+    .features{
+        margin-bottom: 10rem;
+    }
+
     .sale-img{
         width: 26rem;
         height: 39rem;
@@ -407,6 +419,12 @@ body{
     .sale-action-title{
         font-size: 3rem;
         line-height: 3.5rem;
+    }
+
+    .control{
+        background-attachment: fixed;
+        background-position: left top;
+        height: 75rem;
     }
 
     .control-title{
