@@ -9,6 +9,7 @@
 
 html{
     height: 100%;
+    font-size: 10px;
 }
 
 body{
@@ -17,21 +18,21 @@ body{
     height: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
-    line-height: 24px;
+    line-height: 2.4rem;
     margin: 0;
     padding: 0;
 }
 
 /* CONTAINER */
 .container{
-    max-width: 1250px;
+    max-width: 125rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 125px;
-    padding-right: 125px;
+    padding-left: 12.5rem;
+    padding-right: 12.5rem;
 }
 
 /* MAIN CONTENT */
@@ -43,8 +44,8 @@ body{
 .header-top {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
-    margin-bottom: 80px;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
 }
 
 .header-top-action {
@@ -53,7 +54,7 @@ body{
 }
 
 .site-navbar {
-    margin-right: 40px;
+    margin-right: 4rem;
 }
 
 .navbar-list {
@@ -62,12 +63,12 @@ body{
 }
 
 .navbar-item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 3rem;
 }
 
 .item-navbar-link {
-    font-size: 15px;
-    line-height: 22.5px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
     color:#333333;
     text-decoration: none;
     transition: 0.3s;
@@ -77,78 +78,69 @@ body{
     color: #EA625C;
 }
 
-.navbar-link {
-    font-size: 15px;
-    text-decoration: none;
-    color:#666666;
-    transition: 0.3s;
-}
-
-.navbar-link:hover{
-    color: #EA625C;
-}
-
-.navbar-link::after{
-    content: '';
-    display:block;
-    background-color:#000;
-    opacity: 0.5;
-    width: 153px;
-    height: 2px;
+.input{
+    border: none;
+    border-bottom:0.1rem solid #333333;
+    color: #666666;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    outline: none;
+    padding: 0.6rem;
 }
 
 .about-border {
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 68px;
-}
-
-.hero {
-    display: flex;
-    justify-content: space-between;
-    
+    border-bottom: 0.1rem solid #ddd;
+    margin-bottom: 6.8rem;
+    background: url(../images/intro-bg.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right calc(50% - 54.5rem)  bottom;
 }
 
 .hero-action {
-    margin-top: 91px;
-    width: 490px;
+    width: 49rem;
+    padding-top: 7.9rem;
+    padding-bottom: 18.5rem;
 }
 
 .hero-action-title {
     font-weight: 700;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 5rem;
+    line-height: 6rem;
     color: #000;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .hero-action-text {
     display: flex;
     margin: 0;
-    margin-bottom: 42px;
+    margin-bottom: 4.2rem;
     color:#777777;
-    max-width: 490px;
+    max-width: 49rem;
     width: 100%;
-    height: 120px;
+    height: 12rem;
 }
 
 .hero-action-text::before{
     content: '';
     display: inline-block;
-    height: 120px;
-    width: 10px;
+    height: 12rem;
+    width: 1rem;
     background-color: #888888   ;
-    margin-right: 40px;
+    margin-right: 4rem;
 
 }
 
 .main-button {
     background-color: #C9514C;
-    padding:12px 38.5px;
+    padding:1.2rem 3.85rem;
     color: #fff;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
     text-transform: uppercase;
     text-decoration: none;
     margin-top: 0;
@@ -163,11 +155,11 @@ body{
 
 .hero-img {
     display: flex;
-    margin-right: -370px;
+    margin-right: -37rem;
 }
 
 .features {
-    margin-bottom: 168px;
+    margin-bottom: 16.8rem;
 }
 
 
@@ -178,25 +170,25 @@ body{
 }
 
 .features-item {
-    width: 280px;
+    width: 28rem;
 }
 
 .features-item:not(:last-child){
-    margin-right: 80px;
+    margin-right: 8rem;
 }
 
 .features-title {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
     color: #222;
     text-transform: uppercase;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .features-text {
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #333333;
 }
 
@@ -205,24 +197,21 @@ body{
     display: flex;
     align-items: center;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 25.6px;
+    font-size: 1.6rem;
+    line-height: 2.56rem;
     text-transform: uppercase;
     text-decoration: none;
     color: #EA625C;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .features-item-button::before{
     content: '';
     display: inline-block;
     background-color: #EA625C;
-    width: 40px;
-    height: 3px;
-    margin-right: 10px;
-}
-
-.sale {
+    width: 4rem;
+    height: 0.3rem;
+    margin-right: 1rem;
 }
 
 .sale-wrapper {
@@ -231,44 +220,38 @@ body{
     justify-content: space-between;
 }
 
-.sale-action {
-    max-width:490px;
-}
 
 .sale-action-title {
     font-weight: 700;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 5rem;
+    line-height: 6rem;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .sale-action-text {
     display: flex;
     color: #777;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .sale-action-text::before{
     content: '';
     display: inline-block;
     background-color: #888;
-    height: 96px;
-    width: 10px;
-    margin-right: 40px;
+    height: 9.6rem;
+    width: 1rem;
+    margin-right: 4rem;
 }
 
 .sale-button{
-    padding: 12px 90px;
-}
-
-.sale-img-container {
+    padding: 1.2rem 9rem;
 }
 
 .sale-img {
     margin-top: 0;
-    margin-bottom: 70px;
+    margin-bottom: 7rem;
 }
 
 .control {
@@ -277,15 +260,13 @@ body{
     background: url('../images/runners.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 830.19px;
-    width:1250px;
-    margin-left: auto;
+    background-size: cover;
+    height: 83.019rem;
     margin-right: auto;
+    margin-left: auto;
 }
 
 .control-action {
-    width:490px;
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -293,28 +274,150 @@ body{
 
 .control-title {
     font-weight: 700;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 5rem;
+    line-height: 6rem;
     color: #fff;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .control-text {
-    max-width: 450px;
+    max-width: 45rem;
     display: flex;
     font-weight: 400;
     margin: 0;
     color: #fff;
-    margin-bottom: 30px;
-    line-height: 24px
+    margin-bottom: 3rem;
+    line-height: 2.4rem;
 }
 
 .control-text::before{
     content: '';
     display: inline-block;
-    height: 120px;
-    width: 10px;
+    height: 12rem;
+    width: 1rem;
     background-color: #fff;
-    margin-right: 40px;
+    margin-right: 4rem;
+}
+
+
+@media (max-width:960px) {
+
+    .container{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .header-top img{
+        margin-bottom: 2rem;
+    }
+
+    .header-top{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-border{
+        background-size: 50%;
+        text-align: center;
+        background-position: center bottom calc(50% - 18rem);
+    }
+
+    .hero-action{
+       padding-top: 5rem;
+       padding-bottom: 49rem;
+    }
+
+    .sale-wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .sale-action{
+        margin-right: 0;
+        margin-bottom: 3.2rem;
+    }
+
+    .hero-action-text::before{
+        display: none;
+    }
+
+    .sale-action-text::before{
+        display: none;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .hero-action{
+        padding-top: 5rem;
+        padding-bottom: 38rem;
+     }
+
+    .features-list{
+        display: block;
+    }
+
+    .features-item{
+        width: 100%;
+    }
+
+    .features-text{
+        margin-bottom: 3.2rem;
+    }
+    
+}
+
+@media (max-width: 540px) {
+    .hero-action{
+        padding-top: 3rem;
+        padding-bottom: 30rem;
+     }
+
+     .site-logo{
+         text-align: center;
+     }
+
+    .header-top-action{
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-list{
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .input{
+        text-align: center;
+    }
+
+    .sale-img{
+        width: 26rem;
+        height: 39rem;
+    }
+
+    .sale-action-title{
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .control-title{
+        font-size: 4rem;
+    }
+
+    .control-text{
+        margin-right: 0;
+    }
+
+    .control-text::before{
+        display: none;
+    }
 }
